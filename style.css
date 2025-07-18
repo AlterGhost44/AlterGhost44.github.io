@@ -1,7 +1,9 @@
 body {
-background-image: linear-gradient(black, gray, white);
-width: 800px;
-height: 1000px;
+  height: 100vh;
+  margin: 0;
+  background: radial-gradient(circle at center, #cccccc, #444444, #000000);
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 header {
@@ -13,3 +15,7 @@ nav {
 border-radius: 5px
 background-color: E1FAF9;
 }
+
+button {
+background-color: blue;
+color: white;
