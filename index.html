@@ -4,17 +4,21 @@
 <meta charset="UTF-8">
 <title>ToDoList</title>
 <link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
 </head>
 <body>
 <header>Lista Zadań</header>
-<nav>Opcje
-<button value=1>Dodaj zadanie</button>
-<button value=2>Usuń zadanie</button>
-<button value=3>Zmień status</button>
+<nav>
+<button onclick="popup()">Dodaj zadanie</button>
+<div id="task" class="popup hidden">
+<h3>Opis:<input type="text"></input></h3>
+<h3>Godzina:<input type="time"></input></h3>
+<button>Dodaj</button>
+</div>
+<button onclick="removeTask()">Usuń zadanie</button>
+<button onclick="changestatus()">Zmień status</button>
 </nav>
 <main> 
-<ul>
-</ul>
 </main>
 </body>
 </html>
