@@ -11,14 +11,16 @@
 <nav>
 <button onclick="popup()">Dodaj zadanie</button>
 <div id="task" class="popup hidden">
-<h3>Opis:<input type="text"></input></h3>
-<h3>Godzina:<input type="time"></input></h3>
-<button>Dodaj</button>
+<h3>Opis:<input id="opis" type="text"></input></h3>
+<h3>Godzina:<input id="godzina" type="time"></input></h3>
+<button onclick="AddTask()">Dodaj</button>
 </div>
 <button onclick="removeTask()">Usuń zadanie</button>
 <button onclick="changestatus()">Zmień status</button>
 </nav>
 <main> 
+    <ul id="listaZadan">
+    </ul>
 </main>
 </body>
 </html>
