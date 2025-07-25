@@ -31,8 +31,7 @@ Prosta aplikacja To-Do List stworzona w czystym HTML, CSS i JavaScript. Pozwala 
 
 ## ⚙️ Jak uruchomić lokalnie
 
-1. Sklonuj repozytorium:
-komenda: git clone https://github.com/AlterGhost44/AlterGhost44.github.io.git
+1. Sklonuj repozytorium: git clone https://github.com/AlterGhost44/AlterGhost44.github.io.git
 
 2. Otwórz plik `index.html` w przeglądarce.
 
