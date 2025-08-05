@@ -1,0 +1,33 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    background: #abadad;
+}
+
+main {
+    border-radius: 2%;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    height: 90vh;
+    width: 60vh;
+    display: flex;
+    justify-content: center;
+}
+
+.about {
+    border-radius: 2%;
+    box-shadow: 5px 5px 10px black;
+}
+
+a {
+    background-color: rgb(2, 129, 129);
+    color: white;
+    box-shadow: 1px 1px 1px black;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 3px
+}
+
